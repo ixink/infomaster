@@ -59,10 +59,9 @@ cat <<EOF
      | || '_ \| |_ / _ \| |\/| |/ _` / __| __/ _ \ '__|
      | || | | |  _| (_) | |  | | (_| \__ \ ||  __/ |   
     |___|_| |_|_|  \___/|_|  |_|\__,_|___/\__\___|_|
-            ______________________________________________
-                              coded by:ixink(Rayhan Ahmed)
-                                  tutorial :t.me/ixiinkhat
-               contact me:linkedin.com/in/rayhan-ahmed-uiu
+                        coded by:ixink(Rayhan Ahmed)
+                            tutorial :t.me/ixiinkhat
+         contact me:linkedin.com/in/rayhan-ahmed-uiu
 EOF
 
 while true; do
