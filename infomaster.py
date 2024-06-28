@@ -1,6 +1,8 @@
 import platform
 import subprocess
 import requests
+import socket
+import urllib.request
 from bs4 import BeautifulSoup
 import re
 
@@ -16,6 +18,13 @@ print('''
                contact me:linkedin.com/in/rayhan-ahmed-uiu
                                                    
 ''')
+hostname = socket.gethostname()
+local_ip = socket.gethostbyname(hostname)
+print(f"Your Computer IP Address is: {local_ip}")
+
+
+external_ip = urllib.request.urlopen('https://ident.me').read().decode('utf8')
+print(f"Your External IP Address is: {external_ip}")
 
 print("What would you like to start?")
 option =("1. Get Device Info\n2. Check Vulnerablity of Website\n3. Change IP\n")
