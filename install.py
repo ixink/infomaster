@@ -20,7 +20,6 @@ def run_apt_up():
     try:
         subprocess.run(["pip3", "install", "requests"], check=True)
         subprocess.run(["pip3", "install", "bs4"], check=True)
-        subprocess.run(["pip3", "install", "re"], check=True)
         subprocess.run(["sudo", "apt", "update"], check=True)
         print("Installed!")
     except subprocess.CalledProcessError:
