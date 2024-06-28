@@ -24,7 +24,7 @@ print(f"Your Computer IP Address is: {local_ip}")
 
 
 external_ip = urllib.request.urlopen('https://ident.me').read().decode('utf8')
-print(f"Your External IP Address is: {external_ip}")
+print(f"Your External IP Address is: {external_ip}\n")
 
 print("What would you like to start?")
 option =("1. Get Device Info\n2. Check Vulnerablity of Website\n3. Change IP\n")
