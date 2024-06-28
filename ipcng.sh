@@ -54,14 +54,14 @@ change_ip() {
 
 clear
 cat <<EOF
-     ___        __       __  __           _            
+"    ___        __       __  __           _            
     |_ _|_ __  / _| ___ |  \/  | __ _ ___| |_ ___ _ __ 
      | || '_ \| |_ / _ \| |\/| |/ _` / __| __/ _ \ '__|
      | || | | |  _| (_) | |  | | (_| \__ \ ||  __/ |   
     |___|_| |_|_|  \___/|_|  |_|\__,_|___/\__\___|_|
                         coded by:ixink(Rayhan Ahmed)
                             tutorial :t.me/ixiinkhat
-         contact me:linkedin.com/in/rayhan-ahmed-uiu
+         contact me:linkedin.com/in/rayhan-ahmed-uiu"
 EOF
 
 while true; do
